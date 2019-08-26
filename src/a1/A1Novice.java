@@ -38,7 +38,7 @@ public class A1Novice {
 			
 			    double pri = scan.nextDouble();
 			   total = total + (pri * quanity);
-			   array[i] = fname.charAt(0)+ "."+ ' ' + lname + ':'+ ' ' + Double.toString(total);
+			   array[i] = fname.charAt(0)+ "."+ ' ' + lname + ':'+ ' ' + String.format("%.2f", total);
 			
 			
 			}
